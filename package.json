@@ -1,0 +1,48 @@
+{
+  "name": "generator-flangular",
+  "version": "0.0.0",
+  "description": "A generator for Yeoman",
+  "keywords": [
+    "yeoman-generator",
+    "angular",
+    "angularjs",
+    "flask",
+    "webapp",
+    "grunt",
+    "seed",
+    "startup"
+  ],
+  "homepage": "https://github.com/ekweible/generator-flangular",
+  "bugs": "https://github.com/ekweible/generator-flangular/issues",
+  "author": {
+    "name": "Evan Weible",
+    "email": "ekweible@gmail.com",
+    "url": "https://github.com/ekweible"
+  },
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ekweible/generator-flangular.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "yeoman-generator": "~0.14.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.14.0"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.2.10"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}
